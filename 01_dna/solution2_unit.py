@@ -40,6 +40,7 @@ def main() -> None:
     # print('{} {} {} {}'.format(count_a, count_c, count_g, count_t))
 
     # Leave the tuple intact
+    # * = splat, which expands the tuple to its values
     # counts = count(args.dna)
     # print('{} {} {} {}'.format(*counts))
 
